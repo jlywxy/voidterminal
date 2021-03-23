@@ -8,7 +8,7 @@ This program is included in voidshell software kit.https://github.com/jlywxy/voi
 ## usage
 To connect a unix socket,
 ```shell
-$ ./voidterminal unix:/path/to.socket
+$ ./voidterminal unix:/path/to/socket
 ```
 To connect tcp server,
 ```shell
