@@ -1,7 +1,10 @@
 # void terminal
 A socket terminal supports TLS.<br/>
-This program is included in voidshell software kit.https://github.com/jlywxy/void
+This program is included in voidshell software kit.https://github.com/jlywxy/void <br/>
+Current Version: 1.1<br/>
+Author: jlywxy
 
+![avatar](vt.png)
 ## build
 ```$ go clean; go build```
 
@@ -16,7 +19,7 @@ $ ./voidterminal tcp:a.b.c.d:9000
 ```
 To connect tcp over TLS,
 ```shell
-$ ./voidterminal tcp:void-server.net:443 --tls
+$ ./voidterminal tls:void-server.net:9001
 ```
 
 
